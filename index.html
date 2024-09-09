@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My E-commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Product Page Section -->
+    <section class="product-page">
+        <!-- Product Image Gallery -->
+        <div class="product-images">
+            <img id="main-image" src="product1.jpg" alt="Main Product Image">
+            <div class="thumbnail-images">
+                <img class="thumbnail" src="https://m.media-amazon.com/images/I/710XVU2QtDL._SX522_.jpg" alt="Product Thumbnail 1">
+                <img class="thumbnail" src="https://m.media-amazon.com/images/I/41Mz9TVGYwL._SX300_SY300_QL70_FMwebp_.jpg" alt="">
+                <img class="thumbnail" src="https://m.media-amazon.com/images/I/4157z1sGRoL._AC_UF480,480_SR480,480_.jpg" alt="https://m.media-amazon.com/images/I/41Mz9TVGYwL._SX300_SY300_QL70_FMwebp_.jpg">
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="product-details">
+            <h2>Stylish Headphones</h2>
+            <p class="price">$15599</p>
+            <p>High-quality wireless headphones with noise-cancellation and deep bass. Perfect for music lovers and gamers.</p>
+
+            <!-- Quantity Selector -->
+            <div class="quantity">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" value="1" min="1">
+            </div>
+
+            <!-- Total Price -->
+            <p>Total Price: $<span id="total-price">49.99</span></p>
+
+            <!-- Add to Cart Button -->
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
